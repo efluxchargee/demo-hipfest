@@ -1,4 +1,5 @@
 import { events } from '@/constants/events'
+import { Calendar, Clock, MapPin, Tag } from 'lucide-react'
 
 export function EventsSection() {
   return (
@@ -24,26 +25,30 @@ export function EventsSection() {
                     className="w-full object-cover rounded mb-4 aspect-video"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2">
+                <div className="p-6 space-y-2">
+                  <h3 className="text-xl font-bold text-white mb-3">
                     {event.name}
                   </h3>
-                  <p className="text-gray-300 mb-1">
+
+                  <p className="text-gray-300 flex items-center gap-2">
+                    <Tag size={16} className="text-blue-400" />
                     <strong>Thể loại:</strong> {event.category}
                   </p>
-                  <p className="text-gray-300 mb-1">
-                    <strong>Ngày bắt đầu:</strong> {event.startDate}
+
+                  <p className="text-gray-300 flex items-center gap-2">
+                    <Clock size={16} className="text-blue-400" />
+                    <strong>Ngày bắt đầu:</strong> {event.startTime} –{' '}
+                    {event.startDate}
                   </p>
-                  <p className="text-gray-300 mb-1">
-                    <strong>Ngày kết thúc:</strong> {event.endDate}
+
+                  <p className="text-gray-300 flex items-center gap-2">
+                    <Calendar size={16} className="text-blue-400" />
+                    <strong>Ngày kết thúc:</strong> {event.endTime} –{' '}
+                    {event.endDate}
                   </p>
-                  <p className="text-gray-300 mb-1">
-                    <strong>Giờ bắt đầu:</strong> {event.startTime}
-                  </p>
-                  <p className="text-gray-300 mb-1">
-                    <strong>Giờ kết thúc:</strong> {event.endTime}
-                  </p>
-                  <p className="text-gray-300 mb-4">
+
+                  <p className="text-gray-300 flex items-center gap-2 mt-2">
+                    <MapPin size={16} className="text-blue-400" />
                     <strong>Địa điểm:</strong> {event.location}
                   </p>
                 </div>

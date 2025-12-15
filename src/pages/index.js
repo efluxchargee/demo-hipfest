@@ -33,11 +33,15 @@ export default function Home() {
 
       <Container>
         <CategoriesSection />
+        <div className="border-t border-gray-700 my-8" />
         <EventsSection />
+        <div className="border-t border-gray-700 my-8" />
         <VideosSection />
+        <div className="border-t border-gray-700 my-8" />
         <JudgesSection />
+        <div className="border-t border-gray-700 my-8" />
         <NewsSection />
-        <div className="border-t border-gray-700 my-8"></div>
+        <div className="border-t border-gray-700 my-8" />
         <ContactSection />
       </Container>
       <Footer />
