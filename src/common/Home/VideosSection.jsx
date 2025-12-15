@@ -19,7 +19,7 @@ export function VideosSection() {
 
       <div className="flex flex-wrap -mx-4">
         {videos.map((video, idx) => (
-          <div className="h-auto w-1/2" key={idx}>
+          <div className="h-auto w-full md:w-1/2" key={idx}>
             <div className="p-4">
               <div className="h-full flex flex-col justify-between transition">
                 <iframe

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white py-12">
       <Container>
         <div className="mb-12 pb-8 border-b border-gray-700">
-          <div className="max-w-md text-left px-4">
+          <div className="max-w-md text-left">
             <h4 className="text-xl font-semibold mb-2">Đăng ký nhận tin</h4>
             <p className="text-gray-300 mb-6 text-sm">
               Nhận thông tin mới nhất về Hipfest và các sự kiện hip-hop.
