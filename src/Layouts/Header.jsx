@@ -12,7 +12,15 @@ export default function Header() {
           </div>
 
           <nav className="hidden md:flex space-x-8">
-            {['Sự Kiện', 'Thể loại', 'Giới thiệu', 'Liên hệ'].map((item) => (
+            {[
+              'Trang chủ',
+              'Sự Kiện',
+              'Thể loại',
+              'Thư viện',
+              'Video biểu diễn',
+              'Giới thiệu',
+              'Liên hệ',
+            ].map((item) => (
               <a
                 key={item}
                 href="#"

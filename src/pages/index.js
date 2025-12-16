@@ -5,6 +5,7 @@ import { JudgesSection } from '../common/Home/JudgesSection'
 import { NewsSection } from '../common/Home/NewsSection'
 import { VideosSection } from '../common/Home/VideosSection'
 import { AboutSection } from '../common/Home/AboutSection'
+import { SponsorSection } from '../common/Home/SponsorSection'
 import { ContactSection } from '../common/Home/ContactSection'
 import Header from '../Layouts/Header'
 import Footer from '../Layouts/Footer'
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <div className={`min-h-screen`}>
       <Header />
+
       <div className="bg-white/10">
         <div className=" md:max-w-7xl md:mx-auto md:px-6 ">
           <div className="md:py-10 md:pb-0">
@@ -32,16 +34,20 @@ export default function Home() {
       </div>
 
       <Container>
+        <SponsorSection />
+        <div className="border-t border-gray-700 my-8" />
         <CategoriesSection />
         <div className="border-t border-gray-700 my-8" />
         <EventsSection />
         <div className="border-t border-gray-700 my-8" />
+
         <VideosSection />
         <div className="border-t border-gray-700 my-8" />
         <JudgesSection />
         <div className="border-t border-gray-700 my-8" />
         <NewsSection />
         <div className="border-t border-gray-700 my-8" />
+
         <ContactSection />
       </Container>
       <Footer />
