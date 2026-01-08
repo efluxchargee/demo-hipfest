@@ -1,3 +1,5 @@
+import image from '@/assets/hipfest3.jpg'
+
 export const events = [
   {
     id: 'breaking-event',
@@ -8,8 +10,7 @@ export const events = [
     startTime: '10:00',
     endTime: '18:00',
     location: 'Sân vận động Thống Nhất',
-    image:
-      'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/482027274_1033704178571193_7345810880626091997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGegGOqh9fWMggEBLXBXph-2oTJGwOigg7ahMkbA6KCDtMMbnbpXYh79c9RovWg1APoVQbzGcA7rOjINDj9nk_G&_nc_ohc=ki53MUUnKSIQ7kNvwEaf_A7&_nc_oc=AdkUev9eBe1uzAGYqch_0QxVO7P3jv2V0g15OQ95brLj9e8qZ12Ozci5ky1qCh6IZHracWK02O2YlT8E8eAZCiF1&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Lj9iUXGyt_TraT-yrvPzlg&oh=00_AfkyP7uRjyEjpLUmgfO6QFDvBts0mFApUvwiJSYkmGzI1Q&oe=6945DECE',
+    image: image.src,
   },
   {
     id: 'all-style-event',
@@ -20,8 +21,7 @@ export const events = [
     startTime: '14:00',
     endTime: '20:00 PM',
     location: 'Sân AM vận động Thống Nhất',
-    image:
-      'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/482027274_1033704178571193_7345810880626091997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGegGOqh9fWMggEBLXBXph-2oTJGwOigg7ahMkbA6KCDtMMbnbpXYh79c9RovWg1APoVQbzGcA7rOjINDj9nk_G&_nc_ohc=ki53MUUnKSIQ7kNvwEaf_A7&_nc_oc=AdkUev9eBe1uzAGYqch_0QxVO7P3jv2V0g15OQ95brLj9e8qZ12Ozci5ky1qCh6IZHracWK02O2YlT8E8eAZCiF1&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Lj9iUXGyt_TraT-yrvPzlg&oh=00_AfkyP7uRjyEjpLUmgfO6QFDvBts0mFApUvwiJSYkmGzI1Q&oe=6945DECE',
+    image: image.src,
   },
   {
     id: 'beatbox-event',
@@ -32,8 +32,7 @@ export const events = [
     startTime: '16:00',
     endTime: '22:00',
     location: 'Sân vận động Thống Nhất',
-    image:
-      'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/482027274_1033704178571193_7345810880626091997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGegGOqh9fWMggEBLXBXph-2oTJGwOigg7ahMkbA6KCDtMMbnbpXYh79c9RovWg1APoVQbzGcA7rOjINDj9nk_G&_nc_ohc=ki53MUUnKSIQ7kNvwEaf_A7&_nc_oc=AdkUev9eBe1uzAGYqch_0QxVO7P3jv2V0g15OQ95brLj9e8qZ12Ozci5ky1qCh6IZHracWK02O2YlT8E8eAZCiF1&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Lj9iUXGyt_TraT-yrvPzlg&oh=00_AfkyP7uRjyEjpLUmgfO6QFDvBts0mFApUvwiJSYkmGzI1Q&oe=6945DECE',
+    image: image.src,
   },
   {
     id: 'freestyle-rap-event',
@@ -44,8 +43,7 @@ export const events = [
     startTime: '19:00',
     endTime: '23:00',
     location: 'Sân vận động Thống Nhất',
-    image:
-      'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/482027274_1033704178571193_7345810880626091997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGegGOqh9fWMggEBLXBXph-2oTJGwOigg7ahMkbA6KCDtMMbnbpXYh79c9RovWg1APoVQbzGcA7rOjINDj9nk_G&_nc_ohc=ki53MUUnKSIQ7kNvwEaf_A7&_nc_oc=AdkUev9eBe1uzAGYqch_0QxVO7P3jv2V0g15OQ95brLj9e8qZ12Ozci5ky1qCh6IZHracWK02O2YlT8E8eAZCiF1&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Lj9iUXGyt_TraT-yrvPzlg&oh=00_AfkyP7uRjyEjpLUmgfO6QFDvBts0mFApUvwiJSYkmGzI1Q&oe=6945DECE',
+    image: image.src,
   },
   {
     id: 'graffiti-event',
@@ -56,8 +54,7 @@ export const events = [
     startTime: '12:00',
     endTime: '18:00',
     location: 'Sân vận động Thống Nhất',
-    image:
-      'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/482027274_1033704178571193_7345810880626091997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGegGOqh9fWMggEBLXBXph-2oTJGwOigg7ahMkbA6KCDtMMbnbpXYh79c9RovWg1APoVQbzGcA7rOjINDj9nk_G&_nc_ohc=ki53MUUnKSIQ7kNvwEaf_A7&_nc_oc=AdkUev9eBe1uzAGYqch_0QxVO7P3jv2V0g15OQ95brLj9e8qZ12Ozci5ky1qCh6IZHracWK02O2YlT8E8eAZCiF1&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Lj9iUXGyt_TraT-yrvPzlg&oh=00_AfkyP7uRjyEjpLUmgfO6QFDvBts0mFApUvwiJSYkmGzI1Q&oe=6945DECE',
+    image: image.src,
   },
   {
     id: 'dj-event',
@@ -68,7 +65,6 @@ export const events = [
     startTime: '20:00',
     endTime: '02:00',
     location: 'Sân vận động Thống Nhất',
-    image:
-      'https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/482027274_1033704178571193_7345810880626091997_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGegGOqh9fWMggEBLXBXph-2oTJGwOigg7ahMkbA6KCDtMMbnbpXYh79c9RovWg1APoVQbzGcA7rOjINDj9nk_G&_nc_ohc=ki53MUUnKSIQ7kNvwEaf_A7&_nc_oc=AdkUev9eBe1uzAGYqch_0QxVO7P3jv2V0g15OQ95brLj9e8qZ12Ozci5ky1qCh6IZHracWK02O2YlT8E8eAZCiF1&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Lj9iUXGyt_TraT-yrvPzlg&oh=00_AfkyP7uRjyEjpLUmgfO6QFDvBts0mFApUvwiJSYkmGzI1Q&oe=6945DECE',
+    image: image.src,
   },
 ]
