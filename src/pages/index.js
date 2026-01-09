@@ -18,7 +18,7 @@ export default function Home() {
       <Header />
 
       <div className="bg-white/10">
-        <div className="px-6 md:max-w-7xl md:mx-auto">
+        <div className="md:max-w-7xl md:mx-auto md:px-6">
           <div className="md:py-10 md:pb-0">
             <div className="rounded-lg overflow-hidden shadow-md relative">
               <video
@@ -31,11 +31,13 @@ export default function Home() {
             </div>
           </div>
 
-          <AboutSection />
+          <div className="px-6 md:px-0">
+            <AboutSection />
 
-          <CountryFlags />
+            <CountryFlags />
 
-          <SponsorSection />
+            <SponsorSection />
+          </div>
         </div>
       </div>
 
