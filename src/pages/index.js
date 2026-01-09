@@ -18,7 +18,7 @@ export default function Home() {
       <Header />
 
       <div className="bg-white/10">
-        <div className=" md:max-w-7xl md:mx-auto md:px-6 ">
+        <div className="px-6 md:max-w-7xl md:mx-auto">
           <div className="md:py-10 md:pb-0">
             <div className="rounded-lg overflow-hidden shadow-md relative">
               <video
