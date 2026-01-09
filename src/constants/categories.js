@@ -8,8 +8,8 @@ export const categories = [
       en: 'Breaking (B-boy / B-girl)',
     },
     overview: {
-      vi: 'Hình thức battle cốt lõi của văn hóa hip-hop, nơi dancer thi đấu trực tiếp qua các vòng, thể hiện kỹ thuật, nhạc tính và chiến thuật.',
-      en: 'A core hip-hop battle format where dancers compete head-to-head, showcasing technique, musicality, creativity, and strategy.',
+      vi: 'Hình thức battle cốt lõi của văn hóa hip-hop...',
+      en: 'A core hip-hop battle format...',
     },
     key_elements: {
       vi: ['Toprock', 'Footwork', 'Power moves', 'Freezes', 'Transitions'],
@@ -25,7 +25,7 @@ export const categories = [
         'Battle strategy',
       ],
     },
-    formats: ['1v1', '2v2', 'Crew Battle'],
+    formats: ['1v1', '2v2', 'crew'],
   },
 
   {
@@ -37,8 +37,8 @@ export const categories = [
       en: 'All-style Dance Battle',
     },
     overview: {
-      vi: 'Battle tự do kết hợp nhiều phong cách street dance. Dancer cần khả năng thích ứng nhanh và cá tính rõ ràng.',
-      en: 'A freestyle battle combining multiple street dance styles, requiring versatility, adaptability, and strong individuality.',
+      vi: 'Battle tự do kết hợp nhiều phong cách street dance.',
+      en: 'A freestyle battle combining multiple street dance styles.',
     },
     key_elements: {
       vi: ['Đa dạng phong cách', 'Groove', 'Nhạc tính', 'Character'],
@@ -60,8 +60,8 @@ export const categories = [
       en: 'Rap / Freestyle / MC Battle',
     },
     overview: {
-      vi: 'Battle rap freestyle nơi MC thể hiện kỹ năng ngôn từ, đối đáp và làm chủ sân khấu.',
-      en: 'A freestyle rap battle where MCs showcase lyrical skills, rebuttals, and stage control.',
+      vi: 'Battle rap freestyle nơi MC thể hiện kỹ năng ngôn từ.',
+      en: 'A freestyle rap battle where MCs showcase lyrical skills.',
     },
     key_elements: {
       vi: ['Flow', 'Punchline', 'Wordplay', 'Delivery'],
@@ -71,7 +71,7 @@ export const categories = [
       vi: ['Nội dung', 'Đối đáp', 'Phong thái', 'Kết nối khán giả'],
       en: ['Content', 'Rebuttals', 'Delivery', 'Crowd connection'],
     },
-    formats: ['Solo Freestyle', '1v1 MC Battle'],
+    formats: ['solo_freestyle', 'mc_battle'],
   },
 
   {
@@ -83,8 +83,8 @@ export const categories = [
       en: 'Beatbox Battle',
     },
     overview: {
-      vi: 'Battle sử dụng âm thanh tạo ra từ miệng, tập trung vào kỹ thuật, cấu trúc và sáng tạo.',
-      en: 'A vocal sound battle focusing on technique, musical structure, and originality.',
+      vi: 'Battle sử dụng âm thanh tạo ra từ miệng.',
+      en: 'A vocal sound battle.',
     },
     key_elements: {
       vi: ['Kỹ thuật', 'Âm sắc', 'Cấu trúc bài', 'Sáng tạo'],
@@ -94,7 +94,7 @@ export const categories = [
       vi: ['Độ sạch', 'Độ khó', 'Bố cục', 'Trình diễn'],
       en: ['Clarity', 'Difficulty', 'Structure', 'Performance'],
     },
-    formats: ['Solo', 'Tag-team', 'Loopstation'],
+    formats: ['solo', 'tag_team', 'loop_station'],
   },
 
   {
@@ -106,8 +106,8 @@ export const categories = [
       en: 'DJ Showcase / DJ Battle',
     },
     overview: {
-      vi: 'DJ trình diễn hoặc thi đấu kỹ năng mix, scratch và điều khiển không khí sự kiện.',
-      en: 'A DJ showcase or battle highlighting mixing, scratching, and crowd control skills.',
+      vi: 'DJ trình diễn hoặc thi đấu kỹ năng mix, scratch.',
+      en: 'A DJ showcase or battle.',
     },
     key_elements: {
       vi: ['Scratching', 'Beat juggling', 'Mixing', 'Chọn nhạc'],
@@ -117,7 +117,7 @@ export const categories = [
       vi: ['Kỹ thuật', 'Sáng tạo', 'Flow set nhạc', 'Tương tác khán giả'],
       en: ['Technique', 'Creativity', 'Set flow', 'Crowd control'],
     },
-    formats: ['Showcase', 'Battle'],
+    formats: ['showcase', 'battle'],
   },
 
   {
@@ -129,8 +129,8 @@ export const categories = [
       en: 'Graffiti / Live Art',
     },
     overview: {
-      vi: 'Nghệ sĩ street art sáng tác trực tiếp tại sự kiện, thể hiện phong cách và tư duy thị giác.',
-      en: 'Street artists create live artwork, showcasing visual thinking, technique, and personal style.',
+      vi: 'Nghệ sĩ street art sáng tác trực tiếp.',
+      en: 'Street artists create live artwork.',
     },
     key_elements: {
       vi: ['Letter structure', 'Can control', 'Màu sắc', 'Bố cục'],
@@ -140,6 +140,6 @@ export const categories = [
       vi: ['Kỹ thuật', 'Thẩm mỹ', 'Phong cách cá nhân', 'Sáng tạo'],
       en: ['Technique', 'Aesthetics', 'Personal style', 'Originality'],
     },
-    formats: ['Live Painting', 'Showcase'],
+    formats: ['live_painting', 'showcase'],
   },
 ]
