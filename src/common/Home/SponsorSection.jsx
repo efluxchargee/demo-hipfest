@@ -12,10 +12,10 @@ export function SponsorSection() {
         </p>
       </div>
 
-      <div className="mt-8 flex flex-wrap justify-center items-center -mx-4">
+      <div className="mt-8 flex flex-wrap justify-center items-center -mx-3">
         {sponsors.map((sponsor, idx) => (
-          <div key={idx} className="w-1/2 md:w-1/5 h-auto">
-            <div className="p-4 h-full">
+          <div key={idx} className="w-1/2 md:w-1/8 h-auto">
+            <div className="p-3 h-full">
               <a
                 href={sponsor.website}
                 target="_blank"

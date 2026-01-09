@@ -7,6 +7,7 @@ import { VideosSection } from '../common/Home/VideosSection'
 import { AboutSection } from '../common/Home/AboutSection'
 import { SponsorSection } from '../common/Home/SponsorSection'
 import { ContactSection } from '../common/Home/ContactSection'
+import { CountryFlags } from '../common/Home/CountryFlags'
 import Header from '../Layouts/Header'
 import Footer from '../Layouts/Footer'
 import { CategoriesSection } from '@/common/Home/CategoriesSection'
@@ -19,7 +20,7 @@ export default function Home() {
       <div className="bg-white/10">
         <div className=" md:max-w-7xl md:mx-auto md:px-6 ">
           <div className="md:py-10 md:pb-0">
-            <div className="rounded-lg overflow-hidden shadow-md">
+            <div className="rounded-lg overflow-hidden shadow-md relative">
               <video
                 src="/banner.mp4"
                 autoPlay
@@ -29,13 +30,16 @@ export default function Home() {
               />
             </div>
           </div>
+
           <AboutSection />
+
+          <CountryFlags />
+
+          <SponsorSection />
         </div>
       </div>
 
       <Container>
-        <SponsorSection />
-        <div className="border-t border-gray-700 my-8" />
         <CategoriesSection />
         <div className="border-t border-gray-700 my-8" />
         <EventsSection />
