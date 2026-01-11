@@ -3,7 +3,7 @@ import { sponsors } from '@/constants/sponsors'
 export function SponsorSection() {
   return (
     <section className="py-16 md:py-20 ">
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 w-full">
+      <div className="mt-8 grid grid-cols-4 md:grid-cols-6 gap-4 w-full">
         {sponsors.map((sponsor) => (
           <div
             key={sponsor.id}
