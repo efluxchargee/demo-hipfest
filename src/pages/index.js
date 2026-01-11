@@ -1,16 +1,15 @@
 import { Container } from '@/common/components/Container'
-import { categories } from '@/constants/categories'
+import { CategoriesSection } from '@/common/Home/CategoriesSection'
+import { AboutSection } from '../common/Home/AboutSection'
+import { ContactSection } from '../common/Home/ContactSection'
+import { CountryFlags } from '../common/Home/CountryFlags'
 import { EventsSection } from '../common/Home/EventsSection'
 import { JudgesSection } from '../common/Home/JudgesSection'
 import { NewsSection } from '../common/Home/NewsSection'
-import { VideosSection } from '../common/Home/VideosSection'
-import { AboutSection } from '../common/Home/AboutSection'
 import { SponsorSection } from '../common/Home/SponsorSection'
-import { ContactSection } from '../common/Home/ContactSection'
-import { CountryFlags } from '../common/Home/CountryFlags'
-import Header from '../Layouts/Header'
+import { VideosSection } from '../common/Home/VideosSection'
 import Footer from '../Layouts/Footer'
-import { CategoriesSection } from '@/common/Home/CategoriesSection'
+import Header from '../Layouts/Header'
 
 export default function Home() {
   return (
@@ -33,9 +32,7 @@ export default function Home() {
 
           <div className="px-6 md:px-0">
             <AboutSection />
-
             <CountryFlags />
-
             <SponsorSection />
           </div>
         </div>

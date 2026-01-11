@@ -1,52 +1,61 @@
+import vietnam from '@/assets/flags/1.vietnam.png'
+import france from '@/assets/flags/2.France.svg.png'
+import india from '@/assets/flags/3.India.svg.png'
+import indonesia from '@/assets/flags/4.Indonesia.svg.png'
+import japan from '@/assets/flags/5.Japan.svg.png'
+import laos from '@/assets/flags/6.Laos.svg.png'
+import malaysia from '@/assets/flags/7.Malaysia.svg.png'
+import norway from '@/assets/flags/8.Norway.svg.png'
+import russia from '@/assets/flags/9.Russia.svg.png'
+import singapore from '@/assets/flags/10.Singapore.svg.png'
+import korea from '@/assets/flags/11.Korea.svg.png'
+import spain from '@/assets/flags/12.Spain.svg.png'
+import thailand from '@/assets/flags/12.Thailand.svg.png'
+import netherlands from '@/assets/flags/14.Netherlands.svg.png'
+import china from '@/assets/flags/15.China.svg.png'
+import philippines from '@/assets/flags/16.Philippines.svg.png'
+import taiwan from '@/assets/flags/17.Chinese_Taipei_for_Olympic_Games.svg'
+import unitedStates from '@/assets/flags/18.United_States.svg.png'
+
 export function CountryFlags() {
-  const asianCountries = [
-    { code: 'VN', name: 'Vietnam', flag: '🇻🇳' },
-    { code: 'JP', name: 'Japan', flag: '🇯🇵' },
-    { code: 'KR', name: 'South Korea', flag: '🇰🇷' },
-    { code: 'TH', name: 'Thailand', flag: '🇹🇭' },
-    { code: 'PH', name: 'Philippines', flag: '🇵🇭' },
-    { code: 'CN', name: 'China', flag: '🇨🇳' },
-    { code: 'IN', name: 'India', flag: '🇮🇳' },
-    { code: 'ID', name: 'Indonesia', flag: '🇮🇩' },
-    { code: 'MY', name: 'Malaysia', flag: '🇲🇾' },
-    { code: 'SG', name: 'Singapore', flag: '🇸🇬' },
-    { code: 'HK', name: 'Hong Kong', flag: '🇭🇰' },
-    { code: 'TW', name: 'Taiwan', flag: '🇹🇼' },
-    { code: 'BD', name: 'Bangladesh', flag: '🇧🇩' },
-    { code: 'PK', name: 'Pakistan', flag: '🇵🇰' },
-    { code: 'LK', name: 'Sri Lanka', flag: '🇱🇰' },
-    { code: 'MM', name: 'Myanmar', flag: '🇲🇲' },
-    { code: 'KH', name: 'Cambodia', flag: '🇰🇭' },
-    { code: 'LA', name: 'Laos', flag: '🇱🇦' },
-    { code: 'BN', name: 'Brunei', flag: '🇧🇳' },
-    { code: 'TL', name: 'Timor-Leste', flag: '🇹🇱' },
-    { code: 'NP', name: 'Nepal', flag: '🇳🇵' },
-    { code: 'BT', name: 'Bhutan', flag: '🇧🇹' },
-    { code: 'MV', name: 'Maldives', flag: '🇲🇻' },
-    { code: 'MN', name: 'Mongolia', flag: '🇲🇳' },
-    { code: 'KZ', name: 'Kazakhstan', flag: '🇰🇿' },
-    { code: 'KG', name: 'Kyrgyzstan', flag: '🇰🇬' },
-    { code: 'TJ', name: 'Tajikistan', flag: '🇹🇯' },
-    { code: 'TM', name: 'Turkmenistan', flag: '🇹🇲' },
-    { code: 'UZ', name: 'Uzbekistan', flag: '🇺🇿' },
+  const countries = [
+    { code: 'VN', name: 'Vietnam', flag: vietnam.src },
+    { code: 'RU', name: 'Russia', flag: russia.src },
+    { code: 'US', name: 'United States', flag: unitedStates.src },
+    { code: 'KR', name: 'Korea', flag: korea.src },
+    { code: 'FR', name: 'France', flag: france.src },
+    { code: 'IN', name: 'India', flag: india.src },
+    { code: 'ID', name: 'Indonesia', flag: indonesia.src },
+    { code: 'JP', name: 'Japan', flag: japan.src },
+    { code: 'LA', name: 'Laos', flag: laos.src },
+    { code: 'MY', name: 'Malaysia', flag: malaysia.src },
+    { code: 'NO', name: 'Norway', flag: norway.src },
+
+    { code: 'SG', name: 'Singapore', flag: singapore.src },
+
+    { code: 'ES', name: 'Spain', flag: spain.src },
+    { code: 'TH', name: 'Thailand', flag: thailand.src },
+    { code: 'NL', name: 'Netherlands', flag: netherlands.src },
+    { code: 'CN', name: 'China', flag: china.src },
+    { code: 'PH', name: 'Philippines', flag: philippines.src },
+    { code: 'TW', name: 'Chinese Taipei for Olympic Games', flag: taiwan.src },
   ]
 
   return (
     <section>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 w-full">
-        {asianCountries.map((country) => (
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-9 gap-4 w-full">
+        {countries.map((country) => (
           <div
             key={country.code}
-            className="flex flex-col items-center justify-center gap-2 p-4
-              bg-white/10 backdrop-blur-sm rounded-xl border border-white/20
-              hover:bg-white/20 hover:scale-105 transition-all duration-300 group"
+            className="flex flex-col items-center justify-center gap-2
+              bg-white/10 backdrop-blur-sm rounded-xl
+              hover:bg-white/20  transition-all duration-300 group"
           >
-            <div className="text-4xl group-hover:scale-110 transition-transform duration-300">
-              {country.flag}
-            </div>
-            <div className="text-sm font-bold text-white text-center">
-              {country.name}
-            </div>
+            <img
+              src={country.flag}
+              alt={country.name}
+              className="w-full aspect-4/3 group-hover:scale-105 transition-transform duration-300"
+            />
           </div>
         ))}
       </div>
